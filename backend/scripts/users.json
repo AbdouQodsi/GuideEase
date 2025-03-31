@@ -1,0 +1,36 @@
+[
+  { "firstname": "Alice", "lastname": "Smith", "phone": "1234567890", "email": "alice@example.com", "userType": "admin" },
+  { "firstname": "Bob", "lastname": "Johnson", "phone": "2345678901", "email": "bob@example.com", "userType": "tourist" },
+  { "firstname": "Carla", "lastname": "Davis", "phone": "3456789012", "email": "carla@example.com", "userType": "tourist" },
+  { "firstname": "Daniel", "lastname": "Lee", "phone": "4567890123", "email": "daniel@example.com", "userType": "tourist" },
+  { "firstname": "Eva", "lastname": "Taylor", "phone": "5678901234", "email": "eva@example.com", "userType": "tourist" },
+  { "firstname": "Frank", "lastname": "Moore", "phone": "6789012345", "email": "frank@example.com", "userType": "tourist" },
+  { "firstname": "Grace", "lastname": "Miller", "phone": "7890123456", "email": "grace@example.com", "userType": "tourist" },
+  {
+    "firstname": "Isabella",
+    "lastname": "Walker",
+    "phone": "9012345678",
+    "email": "isabella@example.com",
+    "userType": "tourguide",
+    "license": "https://picsum.photos/seed/license1/400/300",
+    "introduction": "Experienced tour guide in historical sites."
+  },
+  {
+    "firstname": "Jack",
+    "lastname": "Hall",
+    "phone": "0123456789",
+    "email": "jack@example.com",
+    "userType": "tourguide",
+    "license": "https://picsum.photos/seed/license2/400/300",
+    "introduction": "Nature and adventure tour specialist."
+  },
+  {
+    "firstname": "Luna",
+    "lastname": "Reyes",
+    "phone": "0999999999",
+    "email": "luna@example.com",
+    "userType": "tourguide",
+    "license": "https://picsum.photos/seed/license3/400/300",
+    "introduction": "Expert in culinary and cultural tours."
+  }
+]

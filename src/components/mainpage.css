@@ -1,0 +1,36 @@
+.main-page {
+    position: relative;
+    height: 80vh;
+    background-image: url("https://dushi.singtao.ca/vancouver/wp-content/uploads/master_sandbox/2024/08/2024081816365545347.jpg"); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-page-overlay {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .main-title {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .main-subtitle {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .main-button {
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    cursor: pointer;
+  }

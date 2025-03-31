@@ -1,0 +1,128 @@
+/* Container for the login page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #9b59b6, #6c5ce7);
+  }
+  
+  /* Login card styling */
+  .login-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Back button styling */
+  .back-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+  
+  /* Title styling */
+  .login-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Form styling */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+  
+  .login-input {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .login-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Login button styling */
+  .login-button {
+    background: #3498db;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .login-button:hover {
+    background: #2980b9;
+  }
+  
+  /* Links for forgot password and signup */
+  .login-links {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .login-links a {
+    color: rgb(45, 37, 195);
+    text-decoration: underline;
+  }
+  
+  .login-links a:hover {
+    color: #3498db;
+  }
+  
+  /* Divider for social login */
+  .login-divider {
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    color: white;
+    opacity: 0.8;
+  }
+  
+  /* Social login buttons */
+  .login-socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .social-button {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #9b59b6;
+    cursor: pointer;
+  }
+  
+  .social-button:hover {
+    background: #f1f1f1;
+  }

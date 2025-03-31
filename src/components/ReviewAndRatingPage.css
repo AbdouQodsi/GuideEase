@@ -1,0 +1,154 @@
+.review-page-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    border-left: solid 1px;
+    border-right: solid 1px;
+  }
+  
+  .back-btn {
+    background-color: #3498db;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .review-header {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-bottom: 0.5rem;
+  }
+  
+  .overall-rating {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+    gap: 0.5rem;
+  }
+  
+  .rating-score {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .rating-stars {
+    color: orange;
+    font-size: 1.5rem;
+  }
+  
+  .total-reviews {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .submit-review-btn {
+    background-color: #f2994a;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .rating-breakdown {
+    margin-bottom: 1.5rem;
+  }
+  
+  .breakdown-item {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .breakdown-item span{
+    width: 150px;
+  }
+
+  .breakdown-item progress{
+    margin-right: 800px;
+  }
+  
+  .filter-section {
+    display: flex;
+    background-color: #ddd;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: solid black 1px;
+  }
+  
+  .filter-section select{
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+
+  .filter-section input{
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: solid gray 1px;
+    width: 300px;
+  }
+  
+  .reviews-section {
+    margin-bottom: 2rem;
+  }
+  
+  .review-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+  }
+  
+  .review-name {
+    font-weight: bold;
+  }
+  
+  .review-rating {
+    color: orange;
+  }
+  
+  .load-more-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .helpful-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .helpful-btn.active {
+    background-color: #3498db;
+    color: white;
+    border-color: #3498db;
+  }
+  
+  .helpful-btn:hover {
+    opacity: 0.9;
+  }
+
+  .review-footer span{
+    font-weight: 500;
+  }
+
+  .review-footer button{
+    margin-left: 12px;
+  }

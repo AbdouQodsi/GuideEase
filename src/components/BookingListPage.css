@@ -1,0 +1,61 @@
+.booking-list-container {
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .booking-list-container h2 {
+    font-size: 2rem;
+    color: #1e293b;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Booking Table */
+  .booking-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+  }
+  
+  .booking-table th,
+  .booking-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .booking-table th {
+    background-color: #f1f5f9;
+    color: #1e293b;
+    font-weight: 600;
+  }
+  
+  .booking-table td {
+    color: #334155;
+  }
+  
+  .booking-table tr:hover {
+    background-color: #f8fafc;
+    transition: background 0.2s;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .booking-table {
+      font-size: 0.9rem;
+    }
+  
+    .booking-table th,
+    .booking-table td {
+      padding: 0.6rem;
+    }
+  
+    .booking-list-container h2 {
+      font-size: 1.5rem;
+    }
+  }
+  

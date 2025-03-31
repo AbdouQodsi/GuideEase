@@ -1,0 +1,189 @@
+.list-page-container {
+    padding: 2rem;
+    background-color: #f5f5f5;
+  }
+  
+  .list-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .list-subtitle {
+    font-size: 1rem;
+    color: gray;
+    margin-bottom: 1rem;
+  }
+  
+  .tours-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .tour-item {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    align-items: center;
+    background: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tour-info h2 {
+    width: 450px;
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  .tour-info h5{
+    background-color: #54a777;
+    color: #f5f5f5;
+    text-align: center;
+    border-radius: 12px;
+    width: 120px;
+    padding: 5px;
+  }
+  
+  .tour-info .tour-duration,
+  .tour-info .tour-reviews {
+    font-size: 0.9rem;
+    color: gray;
+  }
+  
+  .tour-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #2ecc71;
+  }
+
+/* Filter Container */
+.filter-container {
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .checkbox-label {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .checkbox-label input {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+  }
+  
+  /* Tours List */
+  .tours-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .tour-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    gap: 22px;
+  }
+  
+  .tour-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #2ecc71;
+  }
+
+  .ListPagebox{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    width: 100%;
+}
+
+.tour-item img{
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.book-btn {
+    background-color: #3498db;
+    color: white;
+    font-size: 1.03rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-btn:hover {
+    background-color: #2980b9;
+  }
+
+  .tour-stars {
+    font-size: 1rem;
+    color: #f39c12; /* Gold color for filled stars */
+    margin-left: 0.5rem;
+  }
+
+
+
+
+
+
+
+
+/* Search Bar */
+  .search-bar {
+    padding: 0.5rem;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background-color: #f8fafc;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    outline: none;
+  }
+  
+  .search-bar input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+    background-color: white;
+  }
+  

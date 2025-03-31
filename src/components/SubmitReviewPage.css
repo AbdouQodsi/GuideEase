@@ -1,0 +1,115 @@
+.review-submit-container {
+    padding: 22px 88px 22px 88px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .back-btn {
+    background-color: transparent;
+    color: #3498db;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .rating-section p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stars {
+    display: flex;
+    gap: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .star {
+    font-size: 2rem;
+    color: #ccc;
+    transition: color 0.3s;
+  }
+  
+  .star.active {
+    color: #f39c12;
+  }
+  
+  .review-section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 1.5rem;
+    background-color: #aaa;
+    width: 100%;
+    padding: 12px;
+  }
+  
+  .review-section label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  textarea {
+    width: 98%;
+    height: 300px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .terms-section {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .terms-section label {
+    margin-left: 0.5rem;
+  }
+  
+  .terms-section a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .terms-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin: 1rem 0;
+  }
+  
+  .submit-btn {
+    background-color: #3498db;
+    color: white;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2874a6;
+  }
+  
+  .required {
+    color: red;
+  }
